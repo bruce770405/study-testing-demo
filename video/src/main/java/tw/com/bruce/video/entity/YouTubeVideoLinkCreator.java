@@ -1,4 +1,4 @@
-package tw.com.bruce.video.controller;
+package tw.com.bruce.video.entity;
 
 import java.net.MalformedURLException;
 import java.net.URI;

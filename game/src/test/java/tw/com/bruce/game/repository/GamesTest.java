@@ -18,6 +18,9 @@ import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 public class GamesTest {
 
+    @InjectMocks
+    private Games game;
+
     @Test
     public void shouldCreateAGame() {
     }
