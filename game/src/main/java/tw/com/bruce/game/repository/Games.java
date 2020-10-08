@@ -14,7 +14,7 @@ public class Games {
     @PersistenceContext
     private EntityManager em;
 
-    public Games(){
+    public Games() {
 
     }
 
@@ -24,8 +24,7 @@ public class Games {
     }
 
     public Optional<Game> findGameById(final Long gameId) {
-        Optional<Game> g = Optional.ofNullable(em.find(Game.class,
-                gameId));
+        Optional<Game> g = Optional.ofNullable(em.find(Game.class, gameId));
 
         if (g.isPresent()) {
             Game game = g.get();
