@@ -32,15 +32,15 @@ public class Game {
 
     @ElementCollection
     @CollectionTable(name = "ReleaseDate", joinColumns = @JoinColumn(name = "OwnerId"))
-    private List<ReleaseDate> Releases;       // dates	ReleaseDate	One-to-many relationship of type ReleaseDate.
+    private List<ReleaseDate> releases;       // dates	ReleaseDate	One-to-many relationship of type ReleaseDate.
 
     @ElementCollection
     @CollectionTable(name = "Publisher", joinColumns = @JoinColumn(name = "OwnerId"))
-    private List<Publisher> Publishers; //	Collection of Strings	One-to-many relationship between publishers and the name of the game.
+    private List<Publisher> publishers; //	Collection of Strings	One-to-many relationship between publishers and the name of the game.
 
     @ElementCollection
     @CollectionTable(name = "Developer", joinColumns = @JoinColumn(name = "OwnerId"))
-    private List<Developer> Developers;  // Collection of Strings	One-to-many relationship between developers and the name of the game.
+    private List<Developer> developers;  // Collection of Strings	One-to-many relationship between developers and the name of the game.
 
 
     public static Game fromJson(JsonArray jsonByGameId) {

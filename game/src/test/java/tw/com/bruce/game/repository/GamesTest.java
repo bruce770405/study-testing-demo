@@ -16,20 +16,23 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-public class GamesTest {
+class GamesTest {
 
     @InjectMocks
     private Games game;
 
+    @Mock
+    private EntityManager em;
+
     @Test
-    public void shouldCreateAGame() {
+    void shouldCreateAGame() {
     }
 
     @Test
-    public void shouldFindAGameById() {
+    void shouldFindAGameById() {
     }
 
     @Test
-    public void shouldReturnAnEmptyOptionalIfElementNotFound() {
+    void shouldReturnAnEmptyOptionalIfElementNotFound() {
     }
 }

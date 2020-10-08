@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>tw.com.bruce</groupId>
-    <artifactId>comments</artifactId>
+    <artifactId>study-microservice-test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>comments</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Demo comments testing project for Spring Boot</description>
 
     <properties>
         <java.version>11</java.version>
@@ -39,12 +39,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.junit.vintage</groupId>
-                    <artifactId>junit-vintage-engine</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
     </dependencies>
 

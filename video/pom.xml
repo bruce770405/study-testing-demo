@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>tw.com.bruce</groupId>
-    <artifactId>video</artifactId>
+    <artifactId>study-microservice-test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>video</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Demo video testing project for Spring Boot</description>
 
     <properties>
         <java.version>11</java.version>
